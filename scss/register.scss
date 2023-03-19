@@ -1,0 +1,52 @@
+#register {
+	padding: 100px 0 150px;
+	#form {
+		.input-header {
+			text-align: center;
+			h2 {
+				font-family: 'Sen';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 3rem;
+				line-height: 64px;
+				text-align: center;
+				letter-spacing: -2px;
+				color: #232536;
+			}
+		}
+		.input-controls {
+			padding-top: 50px;
+			width: 50%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-gap: 16px;
+		}
+		input {
+			padding: 24px;
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 1rem;
+			line-height: 28px;
+			color: #232536;
+			border: 1px solid rgba(109, 110, 118, 0.5);
+			border-radius: 2px;
+      &:focus {
+        outline: none;
+      }
+		}
+		button {
+      padding: 16px 0;
+      width: 100%;
+      border: none;
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 1.5rem;
+			line-height: 32px;
+			color: #232536;
+			background: #ffd050;
+		}
+	}
+}

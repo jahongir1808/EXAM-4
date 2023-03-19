@@ -1,0 +1,129 @@
+#our {
+  padding: 50px 0 100px;
+}
+#our .our {
+  padding: 130px 100px 60px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  background: #f4f0f8;
+}
+@media (max-width: 1000px) {
+  #our .our {
+    grid-template-columns: 1fr;
+  }
+}
+#our .our h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+#our .our h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #232536;
+}
+#our .our p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+#ourTeam .ourTeam {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  #ourTeam .ourTeam {
+    grid-template-columns: 1fr;
+  }
+}
+#ourTeam .ourTeam img {
+  width: 100%;
+}
+#ourTeam .ourTeam h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+#ourTeam .ourTeam h5 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #232536;
+}
+#ourTeam .ourTeam p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #232536;
+}
+
+#started {
+  padding: 100px 0;
+}
+#started .started {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  #started .started {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #started .started .started-img {
+    width: 100%;
+  }
+}
+#started .started img {
+  width: 100%;
+}
+#started .started h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+#started .started h5 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 32px;
+  color: #232536;
+}
+#started .started p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #232536;
+}
