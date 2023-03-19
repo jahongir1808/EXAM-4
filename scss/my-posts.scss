@@ -1,0 +1,30 @@
+#myPostsContainer {
+	margin-top: 112px;
+	.myPosts-head {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+		border-bottom: 1px solid rgb(109, 110, 118, 0.32);
+		h3 {
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 3rem;
+			line-height: 64px;
+			letter-spacing: -2px;
+			color: #232536;
+		}
+		.custom-btn {
+			padding: 0 !important;
+			width: 175px !important;
+			height: 56px !important;
+			font-family: 'Sen';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 1.125rem;
+			line-height: 24px;
+			color: #232536;
+			background: #ffd050;
+			border: none;
+		}
+	}
+}

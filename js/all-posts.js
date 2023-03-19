@@ -7,7 +7,6 @@ function getPostsRow({
 	description,
 	photo,
 	title,
-	updatedAt,
 }) {
 	return `
      <div class="posts-item">

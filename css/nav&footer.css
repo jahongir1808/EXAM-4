@@ -2,6 +2,10 @@
   background-color: #232536 !important;
 }
 
+#featured {
+  margin-top: 80px;
+}
+
 .nav {
   box-shadow: 3px 4px 3px 2px rgba(35, 37, 54, 0.5);
   position: fixed !important;
