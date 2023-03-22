@@ -1,109 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://assets.website-files.com/61819aaca0e7acc94c5a2d47/6364e7d3dc73e0c1cc6179d6_Finsweet-logo-256.webp"
+      rel="apple-touch-icon"
+    />
+    <link
+      href="https://assets.website-files.com/61819aaca0e7acc94c5a2d47/624607fc89346558929be22f_fs-favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/common.min.css" />
+    <link rel="stylesheet" href="css/nav&footer.min.css" />
+    <link rel="stylesheet" href="css/compressed/nav&footer.min.css" />
+    <link rel="stylesheet" href="css/login.min.css" />
+    <link rel="stylesheet" href="css/compressed/login.min.css" />
+    <title>Finsweet Home</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link href="https://assets.website-files.com/61819aaca0e7acc94c5a2d47/6364e7d3dc73e0c1cc6179d6_Finsweet-logo-256.webp"
-    rel="apple-touch-icon" />
-  <link href="https://assets.website-files.com/61819aaca0e7acc94c5a2d47/624607fc89346558929be22f_fs-favicon.png"
-    rel="shortcut icon" type="image/x-icon" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/common.min.css">
-  <link rel="stylesheet" href="css/nav&footer.min.css">
-  <link rel="stylesheet" href="css/login.min.css">
-  <title>Finsweet Home</title>
-</head>
-
-<body>
-  <header>
-    <div class="nav">
-      <nav class="container navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="register.html" class="nav-link">Register</a>
+  <body>
+    <header>
+      <div class="nav">
+        <nav class="container navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="register.html" class="nav-link">Register</a>
+                </li>
+                <button id="navLogin">Login</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="login">
+      <div class="container">
+        <form id="form" action="" novalidate>
+          <div class="input-header">
+            <h2>Login</h2>
+          </div>
+          <div class="input-controls">
+            <input
+              placeholder="Username"
+              id="username"
+              name="username"
+              type="text"
+              required
+            />
+            <div class="valid-feedback">Rahmat to'ldirganingiz uchun !</div>
+            <div class="invalid-feedback">Iltimos to'ldiring !</div>
+            <input
+              placeholder="Password"
+              id="password"
+              name="password"
+              type="password"
+              required
+            />
+            <div class="valid-feedback">Rahmat to'ldirganingiz uchun !</div>
+            <div class="invalid-feedback">Iltimos to'ldiring !</div>
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-content d-flex">
+            <div class="footer-text">
+              <p>Finstreet 118 2561 Fintown</p>
+              <p>
+                Hello<a href="mailto: @finsweet.com">@finsweet.com</a>
+                <a href="tel: 020 7993 2905">020 7993 2905</a>
+              </p>
+            </div>
+            <ul class="footer-icons d-flex">
+              <li>
+                <a href="#">
+                  <i class="uil uil-facebook"></i>
+                </a>
               </li>
-              <button id="navLogin">
-                Login
-              </button>
+              <li>
+                <a href="#">
+                  <i class="uil uil-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="uil uil-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="uil uil-linkedin"></i>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <section id="login">
-    <div class="container">
-      <form id="form" action="" novalidate>
-        <div class="input-header">
-          <h2>Login</h2>
-        </div>
-        <div class="input-controls">
-          <input placeholder="Username" id="username" name="username" type="text" required>
-          <div class="valid-feedback">Rahmat to'ldirganingiz uchun !</div>
-          <div class="invalid-feedback">Iltimos to'ldiring !</div>
-          <input placeholder="Password" id="password" name="password" type="password" required>
-          <div class="valid-feedback">Rahmat to'ldirganingiz uchun !</div>
-          <div class="invalid-feedback">Iltimos to'ldiring !</div>
-          <button type="submit">Login</button>
-        </div>
-      </form>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <div class="footer-container">
-        <div class="footer-content d-flex">
-          <div class="footer-text">
-            <p>Finstreet 118 2561 Fintown</p>
-            <p>Hello<a href="mailto: @finsweet.com">@finsweet.com</a> <a href="tel: 020 7993 2905">020 7993 2905</a></p>
-          </div>
-          <ul class="footer-icons d-flex">
-            <li>
-              <a href="#">
-                <i class="uil uil-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="uil uil-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="uil uil-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="uil uil-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
-    integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="js/const.js"></script>
-  <script src="js/request.js"></script>
-  <script src="js/login.js"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"
+      integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/const.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/login.js"></script>
+  </body>
 </html>
